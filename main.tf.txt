@@ -1,5 +1,5 @@
 module "ec2_instance" {
-  source  = "terraform-GCP-modules/ec2-instance/aws"
+  source  = "terraform-azure-modules/ec2-instance/aws"
   version = "~> 3.0"
 
   name = "single-instance"
